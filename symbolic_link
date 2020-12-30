@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# func tooldir [file, dir]
+symblic_link () {
+    ln -sf ~/dotfiles/$1/$2 ~/$2
+    echo "OK: $1/$2 linked"
+}
+
+symblic_link vim .vim
+symblic_link vim .vimrc
+symblic_link tig .tigrc
