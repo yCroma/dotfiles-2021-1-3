@@ -1,0 +1,26 @@
+#!/bin/sh
+
+# git
+# https://computingforgeeks.com/how-to-install-latest-version-of-git-git-2-x-on-centos-7/
+#
+sudo yum remove git*
+sudo yum install https://packages.endpoint.com/rhel/7/os/x86_64/endpoint-repo-1.7-1.x86_64.rpm
+sudo yum install git
+
+# vim
+
+# install ncurses
+sudo yum install -y ncurses-devel
+
+# add repository
+sudo curl -L https://copr.fedorainfracloud.org/coprs/unixcommunity/vim/repo/epel-7/unixcommunity-vim-epel-7.repo -o /etc/yum.repos.d/unixcommunity-vim-epel-7.repo
+sudo yum install vim
+
+# node
+curl -sL https://rpm.nodesource.com/setup_14.x | sudo bash -
+sudo yum install -y nodejs
+
+## if you want yarn
+#  curl -sL https://dl.yarnpkg.com/rpm/yarn.repo | sudo tee /etc/yum.repos.d/yarn.repo
+#  sudo yum install yarn
+
