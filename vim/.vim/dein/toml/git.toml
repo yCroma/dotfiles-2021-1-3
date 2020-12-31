@@ -3,3 +3,7 @@
 # gitgutter
 [[plugins]]
 repo = 'airblade/vim-gitgutter'
+
+# gitfugtive
+[[plugins]]
+repo = 'tpope/vim-fugitive'
