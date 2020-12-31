@@ -14,6 +14,9 @@ set backspace=indent,eol,start
 " auto indent
 set autoindent
 
+" for indent
+set smarttab
+
 " move buffer before save
 set hidden
 
