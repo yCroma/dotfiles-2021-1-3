@@ -1,12 +1,17 @@
 # dotfiles
 
-# prerequirement
+## prerequirement
 
 - git
 - vim 8.*
 - (npm, nodejs)
 
-# install
+## installed tools
+
+- dein
+- tig
+
+## install
 
 ```
 $ cd $HOME
