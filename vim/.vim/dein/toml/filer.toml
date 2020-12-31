@@ -1,0 +1,8 @@
+# filer.toml
+
+# filer
+[[plugins]]
+repo = 'lambdalisue/fern.vim'
+hook_add = '''
+    nnoremap f :Fern . -drawer<CR>
+'''
