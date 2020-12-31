@@ -19,3 +19,7 @@ set hidden
 
 " show column
 set number
+
+" enable clipboard
+set clipboard=unnamed,autoselect
+
