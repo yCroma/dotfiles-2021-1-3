@@ -1,6 +1,6 @@
 # dotfiles
 
-## prerequirement
+## prerequirements
 
 - git
 - vim 8.*
