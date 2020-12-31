@@ -16,3 +16,6 @@ set autoindent
 
 " move buffer before save
 set hidden
+
+" show column
+set number
