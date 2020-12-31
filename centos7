@@ -14,7 +14,7 @@ sudo yum install -y ncurses-devel
 
 # add repository
 sudo curl -L https://copr.fedorainfracloud.org/coprs/unixcommunity/vim/repo/epel-7/unixcommunity-vim-epel-7.repo -o /etc/yum.repos.d/unixcommunity-vim-epel-7.repo
-sudo yum install vim
+sudo yum install -y vim
 
 # node
 curl -sL https://rpm.nodesource.com/setup_14.x | sudo bash -
