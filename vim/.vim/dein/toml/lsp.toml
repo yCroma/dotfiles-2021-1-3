@@ -1,0 +1,11 @@
+# lsp.toml
+
+# prerequire
+[[plugins]]
+repo = 'prabirshrestha/async.vim'
+[[plugins]]
+repo = 'prabirshrestha/asyncomplete.vim'
+
+# lsp
+[[plugins]]
+repo = 'prabirshrestha/vim-lsp'

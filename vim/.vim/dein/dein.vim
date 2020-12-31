@@ -18,6 +18,7 @@ if dein#load_state('~/.cache/dein')
     let s:color = s:toml_dir . '/color.toml'
     let s:filter = s:toml_dir . '/filer.toml'
     let s:git = s:toml_dir . '/git.toml'
+    let s:lsp = s:toml_dir . '/lsp.toml'
     " let s:tool = s:toml_dir . '/tool.toml'
     " let s:tool_lazy = s:toml_dir . '/tool_lazy.toml'
     " let s:tool_lazy3 = s:toml_dir . '/tool_lazy3.toml'
@@ -26,7 +27,8 @@ if dein#load_state('~/.cache/dein')
     " read toml and cache
     call dein#load_toml(s:color, {'lazy': 0})
     call dein#load_toml(s:filter, {'lazy': 0})
-    call dein#load_toml(s:git, {'lazy': 1})
+    call dein#load_toml(s:git, {'lazy': 0})
+    call dein#load_toml(s:lsp, {'lazy': 0})
     " call dein#load_toml(s:tool, {'lazy': 1})
     " call dein#load_toml(s:tool_lazy, {'lazy': 2})
     " call dein#load_toml(s:tool_lazy3, {'lazy': 3})
@@ -43,6 +45,7 @@ call map(dein#check_clean(), "delete(v:val, 'rf')")
 filetype plugin indent on
 syntax enable
 syntax on
+let g:dein#auto_recache = 1
 
 " }}}
 
