@@ -1,0 +1,5 @@
+# git.toml
+
+# gitgutter
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
