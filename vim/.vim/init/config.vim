@@ -32,3 +32,8 @@ augroup cursolposi
     \ exe "normal g`\"" | endif
 augroup END
 
+" undofile
+if has('persistent_undo')
+    set undodir=$HOME/.vim/undo
+    set undofile
+endif
