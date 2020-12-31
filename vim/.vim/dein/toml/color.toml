@@ -17,7 +17,14 @@ repo = 'itchyny/lightline.vim'
 hook_add = '''
 set laststatus=2
 let g:lightline = {
-    \ 'colorscheme':'jellybeans',
+    \ 'colorscheme': 'seoul256',
+    \ 'active': {
+    \   'left': [ [ 'mode', 'paste' ],
+    \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
+    \ },
+    \ 'component_function': {
+    \   'gitbranch': 'FugitiveHead'
+    \ },
     \ }
 '''
 
