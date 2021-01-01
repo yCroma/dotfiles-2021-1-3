@@ -10,10 +10,11 @@ sudo yum install git
 # vim
 
 # install ncurses
-sudo yum install -y ncurses-devel
+sudo yum install -y ncurses-devel make gcc
 
 # add repository
-sudo curl -L https://copr.fedorainfracloud.org/coprs/unixcommunity/vim/repo/epel-7/unixcommunity-vim-epel-7.repo -o /etc/yum.repos.d/unixcommunity-vim-epel-7.repo
+# sudo curl -L https://copr.fedorainfracloud.org/coprs/unixcommunity/vim/repo/epel-7/unixcommunity-vim-epel-7.repo -o /etc/yum.repos.d/unixcommunity-vim-epel-7.repo
+sudo curl -L https://copr.fedorainfracloud.org/coprs/lantw44/vim-latest/repo/epel-7/lantw44-vim-latest-epel-7.repo -o /etc/yum.repos.d/lantw44-vim.repo
 sudo yum install -y vim
 
 # node
