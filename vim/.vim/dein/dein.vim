@@ -19,6 +19,7 @@ if dein#load_state('~/.cache/dein')
     let s:filer = s:toml_dir . '/filer.toml'
     let s:git = s:toml_dir . '/git.toml'
     let s:lsp = s:toml_dir . '/lsp.toml'
+    let s:emmet = s:toml_dir . '/emmet.toml'
     " let s:tool = s:toml_dir . '/tool.toml'
     " let s:tool_lazy = s:toml_dir . '/tool_lazy.toml'
     " let s:tool_lazy3 = s:toml_dir . '/tool_lazy3.toml'
@@ -29,6 +30,7 @@ if dein#load_state('~/.cache/dein')
     call dein#load_toml(s:filer, {'lazy': 0})
     call dein#load_toml(s:git, {'lazy': 0})
     call dein#load_toml(s:lsp, {'lazy': 0})
+    call dein#load_toml(s:emmet, {'lazy': 1})
     " call dein#load_toml(s:tool, {'lazy': 1})
     " call dein#load_toml(s:tool_lazy, {'lazy': 2})
     " call dein#load_toml(s:tool_lazy3, {'lazy': 3})
