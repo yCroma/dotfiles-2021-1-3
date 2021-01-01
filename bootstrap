@@ -1,0 +1,4 @@
+#!/bin/sh
+
+git clone https://github.com/yCroma/dotfiles.git ~/dotfiles
+
