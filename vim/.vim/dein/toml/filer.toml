@@ -4,5 +4,6 @@
 [[plugins]]
 repo = 'lambdalisue/fern.vim'
 hook_add = '''
+    let g:fern#default_hidden = 1
     nnoremap f :Fern . -drawer<CR>
 '''
