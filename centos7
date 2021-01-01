@@ -7,6 +7,9 @@ sudo yum remove -y git*
 sudo yum install -y https://packages.endpoint.com/rhel/7/os/x86_64/endpoint-repo-1.7-1.x86_64.rpm
 sudo yum install -y git
 
+# bootstrap dotfiles
+./bootstrap
+
 # vim
 
 # install ncurses
@@ -27,3 +30,9 @@ sudo yum install -y nodejs
 
 # javascript lsp install
 sudo npm install -g typescript typescript-language-server
+
+# install
+./install
+
+# symbolic_link
+./symbolic_link
