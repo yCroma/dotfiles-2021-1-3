@@ -1,5 +1,12 @@
 # emmet.toml
 
+# emmet
 [[plugins]]
 repo = 'mattn/emmet-vim'
-
+hook_add = '''
+let g:user_emmet_settings = {
+\ 'variables' : {
+\  'lang' : "ja"
+\ }
+\}
+'''
