@@ -3,9 +3,9 @@
 # git
 # https://computingforgeeks.com/how-to-install-latest-version-of-git-git-2-x-on-centos-7/
 #
-sudo yum remove git*
-sudo yum install https://packages.endpoint.com/rhel/7/os/x86_64/endpoint-repo-1.7-1.x86_64.rpm
-sudo yum install git
+sudo yum remove -y git*
+sudo yum install -y https://packages.endpoint.com/rhel/7/os/x86_64/endpoint-repo-1.7-1.x86_64.rpm
+sudo yum install -y git
 
 # vim
 
