@@ -16,7 +16,7 @@ if dein#load_state('~/.cache/dein')
 
     " Load TOML
     let s:color = s:toml_dir . '/color.toml'
-    let s:filter = s:toml_dir . '/filer.toml'
+    let s:filer = s:toml_dir . '/filer.toml'
     let s:git = s:toml_dir . '/git.toml'
     let s:lsp = s:toml_dir . '/lsp.toml'
     " let s:tool = s:toml_dir . '/tool.toml'
@@ -26,7 +26,7 @@ if dein#load_state('~/.cache/dein')
 
     " read toml and cache
     call dein#load_toml(s:color, {'lazy': 0})
-    call dein#load_toml(s:filter, {'lazy': 0})
+    call dein#load_toml(s:filer, {'lazy': 0})
     call dein#load_toml(s:git, {'lazy': 0})
     call dein#load_toml(s:lsp, {'lazy': 0})
     " call dein#load_toml(s:tool, {'lazy': 1})
