@@ -11,6 +11,8 @@ sudo yum install -y git
 ./bootstrap
 
 # vim
+# uninstall vim
+sudo yum remove -y vim*
 
 # install ncurses
 sudo yum install -y ncurses-devel make gcc
