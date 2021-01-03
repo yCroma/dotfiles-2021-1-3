@@ -43,7 +43,4 @@ sudo npm install -g typescript typescript-language-server
 ./plugin
 
 # remove installer
-cd $HOME
-DOTVER=0.1.4
-sudo rm -r dotfiles-$DOTVER-alpha
-sudo rm v$DOTVER-alpha.tar.gz
+./remove_installer
