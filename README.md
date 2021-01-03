@@ -1,29 +1,20 @@
 # dotfiles
 
-## prerequirements
-
-- git
-- vim 8.*
-- (npm, nodejs)
-
-## installed tools
-
-- dein
-- tig
-
 ## install
 
 ```
-$ cd $HOME
-$ git clone https://github.com/yCroma/dotfiles.git
-$ cd dotfiles
-$ ./install
-$ ./symblik_link
+$ curl -OL https://github.com/yCroma/dotfiles/archive/v0.1.5-alpha.tar.gz
+$ tar xzf v0.1.5-alpha.tar.gz
+$ ./v0.1.5-alpha/{your OS}
+# sample
+$ ./v0.1.5-alpha/centos7
 ```
 
-first: use call dein function in vim
+## installed tools
 
-```
-:call dein#recache_runtimepath()
-:call dein#install()
-```
+- git
+- vim 8.2*
+- dein
+- tig
+- npm, nodejs
+
