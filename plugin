@@ -1,0 +1,7 @@
+#!/bin/sh
+# dein plugins install
+vim -c 'call dein#recache_runtimepath()|q'
+vim -c 'call dein#install()|q'
+# coc-extentions install
+vim -c 'CocInstall -sync coc-json coc-tsserver|qa'
+

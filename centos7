@@ -38,6 +38,10 @@ sudo npm install -g typescript typescript-language-server
 
 # symbolic_link
 ./symbolic_link
+
+# install vim plugins
+./plugin
+
 # remove installer
 cd $HOME
 DOTVER=0.1.4
