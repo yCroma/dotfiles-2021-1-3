@@ -38,3 +38,8 @@ sudo npm install -g typescript typescript-language-server
 
 # symbolic_link
 ./symbolic_link
+# remove installer
+cd $HOME
+DOTVER=0.1.4
+sudo rm -r dotfiles-$DOTVER-alpha
+sudo rm v$DOTVER-alpha.tar.gz
